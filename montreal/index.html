@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montreal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <img src="img/Logo.png" alt="logo">
+                </div>
+                <div class="header__menu">
+                    <div class="header__burger">
+                        <span class="header__span"></span>
+                    </div>
+                    <ul class="header__list">
+                        <li><a href="#quote" class="header__link">Quote</a></li>
+                        <li><a href="#services" class="header__link">Services</a></li>
+                        <li><a href="#stats" class="header__link">Stats</a></li>
+                        <li><a href="#contact" class="header__link">Contact</a></li>
+                        <li><a href="#clients" class="header__link">Clients</a></li>
+                        <li><a href="#info" class="header__link">Info</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <h1 class="header__title">WAKE THE DESIGN</h1>
+                <p class="header__text">
+                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. 
+                    Vestibulum ac diam sit amet quam vehicula elementum sed sit 
+                    amet dui. Donec sollicitudin molestie malesuada. Nulla 
+                    porttitor accumsan tincidunt. 
+                </p>
+                <a class="header__button button" href="#services">
+                    <span>WHO WE ARE?</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="quote" id="quote">
+            <div class="container">
+                <p class="quote__text">Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Amet qui nihil laudantium fugiat sed earum. 
+                    Aspernatur, obcaecati repellendus? Nemo ut ullam, nam quod atque 
+                    ducimus.</p>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <div class="services__items">
+                    <div class="services__item">
+                        <div class="services__logo">
+                            <img src="img/services/services01.svg" alt="">
+                        </div>
+                        <h3 class="services__title title">DESIGN</h3>
+                        <p class="services__text">Soluta consequat no has. Has ex 
+                            deleniti consulatu, tamquam interpretaris sit ex vivendum 
+                            ullamcorper et his.</p>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__logo">
+                            <img src="img/services/services02.svg" alt="">
+                        </div>
+                        <h3 class="services__title title">CODING</h3>
+                        <div class="services__text">Soluta consequat no has. Has ex 
+                            deleniti consulatu, tamquam.</div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__logo">
+                            <img src="img/services/services03.svg" alt="">
+                        </div>
+                        <h3 class="services__title title">APPS</h3>
+                        <p class="services__text">Soluta consequat no has. Has ex 
+                            deleniti consulatu, tamquam interpretaris sit ex vivendum 
+                            ullamcorper et his.</p>
+                    </div>
+                </div>
+                <a href="#contact" class="services__button button">
+                    <span>LAUNCH PROJECT NOW</span>
+                </a>
+            </div>
+        </section>
+        <section class="stats" id="stats">
+            <div class="container">
+                <div class="stats__items">
+                    <div class="stats__item">
+                        <img src="img/stats/stats01.svg" alt="" class="stats__image">
+                        <p class="stats__number">345</p>
+                        <p class="stats__text">COMPLETED PROJECTS</p>
+                    </div>
+                    <div class="stats__item">
+                        <img src="img/stats/stats02.svg" alt="" class="stats__image">
+                        <p class="stats__number">983</p>
+                        <p class="stats__text">DRINKED COFFEE</p>
+                    </div>
+                    <div class="stats__item">
+                        <img src="img/stats/stats03.svg" alt="" class="stats__image">
+                        <p class="stats__number">478</p>
+                        <p class="stats__text">MAILS SENT</p>
+                    </div>
+                    <div class="stats__item">
+                        <img src="img/stats/stats04.svg" alt="" class="stats__image">
+                        <p class="stats__number">48</p>
+                        <p class="stats__text">AWARDS TAKEN</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="contact__title title">CONTACT US...</h2>
+                <p class="contact__text">Congue leo eget malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+                <form action="handler.php" method="GET" class="contact__form">
+                    <div class="contact__input-wrapper">
+                        <input type="text" name="name" class="contact__name" placeholder="Name">
+                        <input type="email" name="mail" class="contact__mail" placeholder="Mail">
+                    </div>
+                    <input type="text" name="subject" class="contact__subject" placeholder="Subject">
+                    <textarea name="message" class="contact__message" placeholder="Message..."></textarea>
+                    <button type="submit" class="contact__button button">SEND</button>
+                </form>
+            </div>
+        </section>
+        <section class="clients" id="clients">
+            <div class="container">
+                <h2 class="clients__title title">OUR CLIENTS...</h2>
+                <p class="clients__text">Congue leo eget malesuada. Vivamus magna 
+                    justo, lacinia eget consectetur sed, convallis at tellus. 
+                    Praesent sapien massa, convallis a pellentesque nec, egestas 
+                    non nisi.</p>
+                <div class="clients__logos">
+                    <div class="clients__logo">
+                        <img src="img/clients/clients01.png" alt="">
+                    </div>
+                    <div class="clients__logo">
+                        <img src="img/clients/clients02.png" alt="">
+                    </div>
+                    <div class="clients__logo">
+                        <img src="img/clients/clients03.png" alt="">
+                    </div>
+                    <div class="clients__logo">
+                        <img src="img/clients/clients04.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info" id="info">
+            <div class="container">
+                <div class="info__contacts">
+                    <div class="info__contact">
+                        <div class="info__icon">
+                            <img src="img/contact/contact01.svg" alt="">
+                        </div>
+                        <address class="info__text">847-939-9359</address>
+                    </div>
+                    <div class="info__contact">
+                        <div class="info__icon">
+                            <img src="img/contact/contact02.svg" alt="">
+                        </div>
+                        <address class="info__text">montreal@mail.com</address>
+                    </div>
+                    <div class="info__contact">
+                        <div class="info__icon">
+                            <img src="img/contact/contact03.svg" alt="">
+                        </div>
+                        <address class="info__text">4116 Oak Avenue Chicago, IL 60607</address>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <p class="footer__text">
+                    © 2020 - <a href="#" class="footer__link">Montreal</a> All Right Reserved
+                </p>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com/"><img src="img/socials/Facebook.svg" alt="Facebook"></a>
+                    <a href="https://www.twitter.com/"><img src="img/socials/Twitter.svg" alt="Twitter"></a>
+                    <a href="https://www.google.com/"><img src="img/socials/Google.svg" alt="Google"></a>
+                    <a href="https://www.dribbble.com/"><img src="img/socials/Dribble.svg" alt="Dribble"></a>
+                    <a href="https://www.youtube.com/"><img src="img/socials/Youtube.svg" alt="Youtube"></a>
+                </div>
+                <div class="up"><img src="img/arrow.svg" alt="up"></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
